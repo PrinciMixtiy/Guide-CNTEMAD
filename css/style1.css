@@ -32,6 +32,12 @@ a {
     color: #F44336;
 }
 
+.pre_select {
+    background-color: black;
+    color: #18FFFF !important;
+    border-radius: 5px;
+}
+
 header {
     position: fixed;
     top: 0px;
@@ -136,9 +142,9 @@ nav a:hover {
 }
 
 .menuc > a:hover {
-    background-color: #404040;
+    background-color: black;
     border-radius: 5px;
-    color: yellow;
+    color: #18FFFF;
 }
 
 .corps .container {
