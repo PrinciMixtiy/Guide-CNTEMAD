@@ -1,0 +1,33 @@
+h2 {
+    color: yellow;
+}
+
+h3 {
+    color: rgb(45, 255, 174);
+}
+
+ul, ol {
+    padding-left: 3em;
+}
+
+samp {
+    font-size : 1.4em;
+}
+
+.titre_livre {
+    font-size: 2em;
+    text-align: center;
+    color: aqua;
+    background-color: rgba(0, 0, 0, 0.267);
+    border-radius: 5px;
+}
+
+.exemple {
+    background-color: rgba(93, 96, 116, 0.267);
+}
+
+.cadre {
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px black;
+}

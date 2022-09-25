@@ -8,24 +8,47 @@ body {
     height: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.8em;
-    color: #212121;
-    background-color: white;
+    color: #CCCCCC;
+    background-color: black;
 }
 
 p, h1, h2, h3, h5, h6, li, cite {
     padding: 1.2em;
 }
 
-ul {
+h2 {
+    color: yellow;
+}
+
+hr {
+    color: aqua;
+}
+
+ul, ol {
     padding-left: 3em;
 }
+
 a {
-    color: #212121;
+    color: white;
     text-decoration: none;
 }
 
+samp {
+    font-size : 1.4em;
+}
+
+.titre_livre {
+    font-size: 2em;
+    text-align: center;
+    color: aqua;
+    background-color: black;
+    border-radius: 5px;
+}
+
 .titre {
-    color: #00A234;
+    color: #00E676;
+    font-size: 1.7em;
+    text-align: center;
 }
 
 .rouge {
@@ -34,10 +57,13 @@ a {
 
 .pre_select {
     border-radius: 5px;
-    background-color : #EEEEEE;
-    color: #098888 !important;
+    background-color : black;
+    color: #18FFFF !important;
 }
 
+.exemple {
+    background-color: #444444;
+}
 header {
     position: fixed;
     top: 0px;
@@ -45,8 +71,7 @@ header {
     height: 30px;
     width: 100%;
     text-align: right;
-    color: white;
-    background-color: #777777;
+    background-color: #212121;
 }
 
 header p {
@@ -64,19 +89,18 @@ nav  {
     font-size: 0.7em;
     width: 100%;
     height: 30px;
-    border-bottom: 1px solid #098888;
+    border-bottom: 1px solid #18FFFF;
 }
 
 nav a {
     display: block;
     float: left;
     padding: 9px;
-    color: white;
 }
 
 nav a:hover {
-    color: #098888;
-    background-color: #EEEEEE;
+    color: #18FFFF;
+    background-color: black;
     border-radius: 5px;
 }
 
@@ -87,7 +111,7 @@ nav a:hover {
     left: 0px;
     width: 20%;
     font-size: 0.8em;
-    background-color: #BBBBBB;
+    background-color: #272727;
     overflow: auto;
 }
 
@@ -101,9 +125,7 @@ nav a:hover {
     text-align: center;
     width: 92%;
     padding: 4%;
-    background-color: #EEEEEE;
-    border-radius: 5px;
-    border-bottom: 1px solid #098888;
+    border-bottom: 1px solid #18FFFF;
 }
 
 .mention > a {
@@ -113,8 +135,8 @@ nav a:hover {
 
 .mention > a:hover {
     border-radius: 5px;
-    background-color: #EEEEEE;
-    color: #098888;
+    background-color: black;
+    color: #18FFFF;
 }
 
 .corps {
@@ -124,7 +146,7 @@ nav a:hover {
     right: 0px;
     padding: 0px;
     width: 80%;
-    background-color: #EEEEEE;
+    background-color: #212121;
 }
 
 .menuc {
@@ -134,7 +156,7 @@ nav a:hover {
     z-index: 2;
     width: 100%;
     height: 30px;
-    background-color: #DDDDDD;
+    background-color: #333333;
     overflow: auto;
 }
 
@@ -145,12 +167,12 @@ nav a:hover {
     padding: 5px;
     margin: 4px;
     border-radius: 5px;
-    color: #212121;
+    color: #aaa;
 }
 
 .menuc > a:hover {
-    background-color: #EEEEEE;
-    color: #098888;
+    background-color: black;
+    color: #18FFFF;
 }
 
 .corps .container {
@@ -166,19 +188,19 @@ nav a:hover {
 table {
     border-collapse :collapse;
     width: 97%;
-    background-color: #DFDFDF;
+    background-color: #404040;
     border: 1px solid grey;
     margin-bottom: 30px;
 }
 
-td, th {
+td {
     padding: 10px;
     border: 1px solid grey;
 }
 
 caption {
     padding: 10px;
-    background-color: #BBBBBB;
+    background-color: #272727;
     border-radius: 5px;
 }
 
@@ -190,11 +212,10 @@ footer {
     font-size: 0.8em;
     text-align: center;
     padding: 7px;
-    background-color: #777777;
-    border-top: 1px solid #098888;
+    background-color: #212121;
+    border-top: 1px solid #18FFFF;
 }
 
 footer p {
     padding: 0px;
-    color: white;
 }

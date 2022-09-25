@@ -16,16 +16,35 @@ p, h1, h2, h3, h5, h6, li, cite {
     padding: 1.2em;
 }
 
-ul {
+h2 {
+    color: rebeccapurple;
+}
+
+ul, ol {
     padding-left: 3em;
 }
+
 a {
     color: #212121;
     text-decoration: none;
 }
 
+samp {
+    font-size : 1.4em;
+}
+
+.titre_livre {
+    font-size: 2em;
+    text-align: center;
+    color: #098888;
+    background-color: white;
+    border-radius: 5px;
+}
+
 .titre {
     color: #00A234;
+    font-size: 1.7em;
+    text-align: center;
 }
 
 .rouge {
@@ -38,6 +57,9 @@ a {
     color: #098888 !important;
 }
 
+.exemple {
+    background-color: #DDDDDD;
+}
 header {
     position: fixed;
     top: 0px;
@@ -171,7 +193,7 @@ table {
     margin-bottom: 30px;
 }
 
-td, th {
+td {
     padding: 10px;
     border: 1px solid grey;
 }
