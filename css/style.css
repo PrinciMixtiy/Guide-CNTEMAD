@@ -10,7 +10,7 @@ body {
     font-size: 0.8em;
 }
 
-p, h1, h2, h3, h5, h6, li, cite {
+p, h1, h2, h3, h4, h5, h6, li, cite {
     padding: 1.2em;
 }
 
@@ -124,7 +124,7 @@ nav a {
 table {
     border-collapse :collapse;
     width: 97%;
-    margin-bottom: 30px;
+    margin: 30px auto;
 }
 
 td, th {
@@ -150,4 +150,17 @@ footer {
 
 footer p {
     padding: 0px;
+}
+
+@keyframes Animation1 {
+    from {
+        width: 0%;
+        color: black;
+        font-size: 0em;
+    }
+    to {
+        width: 91%;
+        color: aqua;
+        font-size: 2em ;
+    }
 }

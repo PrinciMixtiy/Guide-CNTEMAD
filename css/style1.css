@@ -100,12 +100,6 @@ footer {
     float: left;
 }
 
-table {
-    max-width: 600px;
-    min-width: 300px;
-    margin: 3%;
-}
-
 .tbt {
     text-align: center;
     background-color: #333333;

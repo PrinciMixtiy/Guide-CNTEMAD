@@ -119,12 +119,6 @@ footer {
     float: left;
 }
 
-table {
-    max-width: 600px;
-    min-width: 300px;
-    margin: 3%;
-}
-
 .tbt {
     text-align: center;
     background-color: rgba(17, 17, 17, 0.384);

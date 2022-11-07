@@ -44,7 +44,7 @@
 </section>
 
         <section class="corps">
-            <div class="menuc">
+            <div class="menuc" id="menu_p">
                 <a href="../../../index.html"><span class="rouge">&lt;</span></a>
                 <a href="../../informatique.html">CURSUS<span class="rouge">&lt;</span></a>
                 <a href="../../atomes.html" class="pre_select">ATOMES PEDAGOGIQUES<span class="rouge">&lt;</span></a>
@@ -53,12 +53,12 @@
                 <a href="../../resources.html">RESOURCES RECOMMANDEES<span class="rouge">&lt;</span></a>
             </div>
 
-            <div class="menuc" style="top: 30px; border-top: 1px solid grey;">
+            <div class="menuc" id="m1" style="top: 30px; border-top: 1px solid grey;">
                 <a href="GEOSI.html">GEOSI</a>
                 <a href="BSN.html" class="pre_select">Base des systèmes numériques</a>
             </div>
 
-            <div class="menuc" style="top: 61px; border-top: 1px solid grey;">
+            <div class="menuc" id="m2" style="top: 61px; border-top: 1px solid grey;">
                 <a href="#chap_1">CHAPITRE I</a>
                 <a href="#chap_2">CHAPITRE II</a>
                 <a href="#chap_3">CHAPITRE III</a>
@@ -69,6 +69,7 @@
             </div>
 
             <div class="container" style="top: 90px;">
+                <button id="pe" onclick="ecran()">O</button>
                 <h1 class="titre_livre">BASE DES SYSTEMES NUMERIQUES</h1>
 
                 <h1 id="chap_1" class="titre">CHAPITRE I : SYSTEMES DE NUMERATION</h1>
@@ -87,12 +88,12 @@
                 <table>
                     <tr>
                         <td></td>
-                        <td>Unité</td>
-                        <td>Dizaine</td>
-                        <td>Centaine</td>
-                        <td>Milliers</td>
-                        <td>10 * Milliers</td>
-                        <td>100 * Milliers</td>
+                        <th>Unité</th>
+                        <th>Dizaine</th>
+                        <th>Centaine</th>
+                        <th>Milliers</th>
+                        <th>10 * Milliers</th>
+                        <th>100 * Milliers</th>
                     </tr>
                     <tr>
                         <td>Chiffre</td>
@@ -134,7 +135,7 @@
                     N = (22)<sub>10</sub></samp>
                 </p>
 
-                <p><strong>* Puissance de 2 :</strong></p>
+                <h4>Puissance de 2 :</h4>
 
                 <table>
                     <caption>Les puissances de 2</caption>
@@ -177,7 +178,7 @@
                         <td>32768</td>
                     </tr>
                 </table>
-                <p>* <u>Définitions :</u></p>
+                <h4>Définitions :</h4>
                 <ul>
                     <li><strong>Triplet : </strong>nombre binaire formé de 3 éléments binaires.</li>
                     <li><strong>Quartet : </strong>nombre binaire formé de 4 éléments binaires.</li>
@@ -187,7 +188,7 @@
                     <li><strong>M.S.B : </strong>bit le plus signigicatif ou bit de poid fort (élément binaire le plus à gauche d'un nombre binaire)</li>
                 </ul>
 
-                <p>* <u><strong><em>Notations des valeurs binaires :</em></strong></u></p>
+                <h4>Notations des valeurs binaires :</h4>
                 <p>Un nombre binaire peut être précédé du signe % ou suivi de l'indice de base (2) ou d'un B.
                 </p>
                 <p class="exemple"><samp>
@@ -196,12 +197,12 @@
                     (1000110)<sub>2</sub><br>01000110 B.</samp>
                 </p>
 
-                <p>* <u><strong><em>Cadrage d'un nombre :</em></strong></u></p>
+                <h4>Cadrage d'un nombre :</h4>
                 <p>C'est le nombre d'élément binaire pris pour representer un interval de valeur.</p>
                 <p>Les éléments les plus significatifs sont situés à gauche, les valeurs les moins significatis sont situées à droite.</p>
                 <p class="exemple"><samp>Exemple : <br>% 00011011 nombre représenté sur un octet (8 bits) <br>% 0000000000011011 nombre représenté sur 16 bits.</samp></p>
 
-                <p>* <u><strong><em>Valeurs maximum et minimum représentées su n bits :</em></strong></u></p>
+                <h4>Valeurs maximum et minimum représentées su n bits :</h4>
                 <p>En utilisant n bits, on peut former 2<sup>n</sup> nombres différents et le plus grand d'entre eux est égal à (2<sup>n</sup> - 1)</p>
                 <p class="exemple"><samp>Exemple : si n = 8 alors : on peut former 256 nombres différents et Nmax = (2<sup>8</sup> - 1) = 255.</samp></p>
                 <p>La valeur minimum d'un entier représenté sur n bits est 0 quelque soit le nombre d'éléments binaires.</p>
@@ -220,7 +221,7 @@
                         <li>2 chiffres : 10, 11, 12, 13, 14, 15, 16, 17, 20, 21, ..., 27, 30, 31, ..., etc.</li>
                     </ul>
                 </p>
-                <p>* <u>Puissace de 8 :</u></p>
+                <h4>Puissace de 8 :</h4>
                 <table>
                     <caption>Les puissances de 8</caption>
                     <tr>
@@ -242,7 +243,7 @@
                         <td>32768</td>
                     </tr>
                 </table>
-                <p>* <u>notation d'un nombre octal :</u></p>
+                <h4>notation d'un nombre octal :</h4>
                 <p>Un nombre octal peut être précédé du signe @ ou suivi de l'indice de base (8) ou d'un Q.</p>
                 <p class="exemple"><samp>
                     Exemple : <br>
@@ -267,7 +268,7 @@
                     N = 10 * 16<sup>3</sup> 12 * 16<sup>2</sup> 5 * 16<sup>1</sup> 3 * 16<sup>0</sup><br>
                     N = (44115)<sub>10</sub>
                 </samp></p>
-                <p>* <u>Puissance de 16 :</u></p>
+                <h4>Puissance de 16 :</h4>
                 <table>
                     <caption>Les puissances de 16</caption>
                     <tr>
@@ -280,7 +281,7 @@
                         <td>5</td>
                     </tr>
                     <tr>
-                        <td>16<sub>n</sub></td>
+                        <td>16<sup>n</sup></td>
                         <td>1</td>
                         <td>16</td>
                         <td>256</td>
@@ -289,7 +290,7 @@
                         <td>1048576</td>
                     </tr>
                 </table>
-                <p>* <u>Notation des valeures hexadécimales :</u></p>
+                <h4>Notation des valeures hexadécimales :</h4>
                 <p>Un nombre hexadécimal peut être précéeé du signe <strong>$</strong> ou suivi de l'indice de base (16) ou de la lettre H.</p>
                 <p class="exemple"><samp>
                     Exemple : <br>
@@ -297,22 +298,20 @@
                     (F6B1)<sub>16</sub> <br>
                     F6B1 H
                 </samp></p>
-                <p>*
-                    <u>Cadrage d'un nombre hexadécimal :</u>
-                </p>
+                <h4>Cadrage d'un nombre hexadécimal :</h4>
                 <p>C'est le nombre de quartets d'éléments binaires ou le nombre maximum de chiffres hexadécimaux pris pour représenter une intervalle de valeurs.</p>
                 <p>Les quartets les plus significatifs du nombre sont situés à droite, les moins significatifs sont situés à gauche et sont tous à 0.</p>
-                <p>* <u>Valeurs maximum et minimum d'un nombre hexadécimal :</u></p>
+                <h4>Valeurs maximum et minimum d'un nombre hexadécimal :</h4>
                 <table>
                     <caption>Valeurs maximum et minimum d'un nombre hexadécimal :</caption>
                     <tr>
-                        <td rowspan="2">Nombre de chiffres</td>
-                        <td rowspan="2">valeur minimum</td>
-                        <td colspan="2">valeur maximum</td>
+                        <th rowspan="2">Nombre de chiffres</th>
+                        <th rowspan="2">valeur minimum</th>
+                        <th colspan="2">valeur maximum</th>
                     </tr>
                     <tr>
-                        <td>base 16</td>
-                        <td>base 10</td>
+                        <th>base 16</th>
+                        <th>base 10</th>
                     </tr>
                     <tr>
                         <td>1</td>
@@ -510,11 +509,125 @@
                 </samp></div>
 
                 <p><strong><u>Deuxième méthode :</u> Nous divisons le nombre décimal à convertir par la base b et nous conservons le reste. Le quotient obtenu est divisé par b et nous conservons le reste. S'il y a un reste, le résultat est égal à 1 sinon il est égal à O. Il faut répéter l'opération sur chaque quotient obtenu. Les restes successifs sont écrits, en commençant par le dernier, de la gauche vers la droite pour former l'expression de N dans le système de base b.</strong></p>
+                <p class="exemple"><samp>Exemple : conversion de N = (3786)<sub>10</sub> en un nombre du système binaire (b=2). <br>
+                Le nombre ainsi obtenu est : <br> N = %010100110111</samp></p>
+    
+                <h3>Autres conversions</h3>
+                <h4>conversion d'un nombre octal en un nombre binaire :</h4>
+                <p>Chaque symbole du nombre écrit dans le système octal est remplacé par son équivalent écrit dans le système binaire à trois bits (voir tableau de correspondance ch.a).</p>
+                <p class="exemple"><samp>Exemple : N = (257)<sub>8</sub> = % 010 101 111</samp></p>
+    
+                <h4>Conversion d'un nombre binaire en un nombre octal :</h4>
+                <p>C'est l'opération inverse de la précédente. Il faut regrouper les 1 et 0 du nombre trois par trois en commençant par la droite, puis chaque groupe est remplacé par le chiffre octal correspondant.</p>
+                <p class="exemple"><samp>Exemple : N = % 11001101111 = 11 001 101 111, N = @ 3157</samp></p>
+
+                <h4>Conversion d'un nombre hexadécimal en un nombre binaire :</h4>
+                <p>Chaque symbole du nombre hexadécimal est remplacé par son équivalent écrit dans le système binaire.</p>
+                <p class="exemple"><samp>Exemple : <br>N = $ BF8 <br>N = % 1011 1111 1000</samp></p>
+
+                <h4>Conversion d'un nombre binaire en un nombre hexadécimal :</h4>
+                <p>C'est l'inverse de la précédente. Il faut donc regrouper les 1 et 0 du nombre par quartet en commençant par la droite, puis chaque groupe est remplacé par le symbole hexadécimal correspondant.</p>
+                <p class="exemple"><samp>Exemple : <br>N = % 100001101111 <br>N = % 1000 0110 1111 <br>N = $ 86F</samp></p>
+                
+                <br>
+                <hr>
+
+                <h2>Nombre binaire en virgule fixe (Fixed Point)</h2>
+                <p>Dans ce type de représentation, la place de la virgule doit être connue. Ainsi pour un nombre donné sur 7 bits plus le bit de signe, si on convient que la virgule se trouve entre le 5<sup>ème</sup> et le 6<sup>ème</sup>, on a la représentation en complément à 2 des nombres suivants :</p>
+                <table>
+                    <caption>Tableau I-18 Nombre binaire en virgule fixe</caption>
+                    <tr>
+                        <th>Nombre décimale</th>
+                        <th colspan="7">Nombre binaire</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <th>Signe</th>
+                        <th colspan="4">Partie entière</th>
+                        <th colspan="2">Partie fractionnaire</th>
+                    </tr>
+                    <tr>
+                        <td>+5.25</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>-5.25</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>+13.75</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>-13.75</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>1</td>
+                    </tr>
+                </table>
+
+                <p>Inconvénient : les dimensions des parties entières et fractionnaires des nombres représentés sont limitées.</p>
+                <p class="exemple"><samp>Exemple : Le nombre 0.01011 est représenté comme suit</samp></p>
+                <table>
+                    <tr>
+                        <th>Signe</th>
+                        <th colspan="4">Partie entère</th>
+                        <th colspan="2">Partie fractionnaire</th>
+                    </tr>
+                    <tr>
+                        <td>0</td>
+                        <td><em>0</em></td>
+                        <td><em>0</em></td>
+                        <td><em>0</em></td>
+                        <td><em>0</em></td>
+                        <td>0</td>
+                        <td>1</td>
+                    </tr>
+                </table>
+                <p>Les trois derniers bits 011 du nombre sont perdus d'où une perte de précision; les positions représentées en italique ne sont pas utilisées</p>
+
+                <hr>
+
+                <h2>Nombre binaire en virgule flottante (Floating Point)</h2>
+                <p>Un nompre en virgule flottante est repésenté par : <br><br>
+                A = (-1)<sup>S</sup> x M x b<sup>E</sup> <br><br>
+                M est la mantisse <br>
+                E l'exposant <br>
+                b la base de représentation <br>
+                S le signe (positif S=0, négatif S=1)</p>
+                <p>En faisant varier E, on fait "flotter" la virgule. <br><br>
+                Si E &lt; 0 décalage à gauche de la virgule. <br>
+                Si E &gt; 0 décalage à droite de la virgule.</p>
+                <p>Avec une mantisse de 5 chiffres</p>
             </div>
         </section>
 
         <footer>
             <p>Guide CNTEMAD 2022</p>
         </footer>
+
+        <script src="../../../js/script.js"></script>
     </body>
 </html>
