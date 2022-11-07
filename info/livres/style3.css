@@ -6,8 +6,8 @@ h3 {
     color: rgb(45, 255, 174);
 }
 
-ul, ol {
-    padding-left: 3em;
+hr {
+    color: aqua;
 }
 
 samp {
@@ -22,8 +22,13 @@ samp {
     border-radius: 5px;
 }
 
+.corps .container {
+    font-size: 1.2em;
+}
+
 .exemple {
     background-color: rgba(93, 96, 116, 0.267);
+    padding: 10px;
 }
 
 .cadre {

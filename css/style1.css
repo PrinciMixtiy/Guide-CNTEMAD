@@ -1,24 +1,17 @@
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
 body {
-    width: 100%;
-    height: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 0.8em;
     color: #CCCCCC;
     background-color: black;
 }
 
-p, h1, h2, h3, h5, h6, li, cite {
-    padding: 1.2em;
+textarea {
+    padding: 20px;
+    background-color: black;
+    color: aqua;
+    font-size: large;
+    border: 1px solid aqua;
+    border-radius: 5px;
 }
 
-ul {
-    padding-left: 3em;
-}
 a {
     color: white;
     text-decoration: none;
@@ -26,10 +19,7 @@ a {
 
 .titre {
     color: #00E676;
-}
-
-.rouge {
-    color: #F44336;
+    font-size: 1.7em;
 }
 
 .pre_select {
@@ -39,37 +29,7 @@ a {
 }
 
 header {
-    position: fixed;
-    top: 0px;
-    right: 0px;
-    height: 30px;
-    width: 100%;
-    text-align: right;
     background-color: #212121;
-}
-
-header p {
-    position: absolute;
-    padding: 9px;
-    right: 0px;
-    font-size: 0.8em;
-}
-
-nav  {
-    position: fixed;
-    top: 0px;
-    left :0px;
-    z-index: 2;
-    font-size: 0.7em;
-    width: 100%;
-    height: 30px;
-    border-bottom: 1px solid #18FFFF;
-}
-
-nav a {
-    display: block;
-    float: left;
-    padding: 9px;
 }
 
 nav a:hover {
@@ -79,26 +39,10 @@ nav a:hover {
 }
 
 .menu {
-    position: fixed;
-    top : 31px;
-    bottom: 31px;
-    left: 0px;
-    width: 20%;
-    font-size: 0.8em;
     background-color: #272727;
-    overflow: auto;
-}
-
-.mention {
-    width: 92%;
-    height: 42%;
-    padding: 4%;
 }
 
 .domaine {
-    text-align: center;
-    width: 92%;
-    padding: 4%;
     border-bottom: 1px solid #18FFFF;
 }
 
@@ -114,32 +58,14 @@ nav a:hover {
 }
 
 .corps {
-    position: fixed;
-    top : 31px;
-    bottom: 31px;
-    right: 0px;
-    padding: 0px;
-    width: 80%;
     background-color: #212121;
 }
 
 .menuc {
-    position: absolute;
-    top: 0px;
-    left :0px;
-    z-index: 2;
-    width: 100%;
-    height: 30px;
     background-color: #333333;
-    overflow: auto;
 }
 
 .menuc > a {
-    display: block;
-    float: left;
-    font-size: 0.8em;
-    padding: 5px;
-    margin: 4px;
     color: #aaa;
 }
 
@@ -149,47 +75,84 @@ nav a:hover {
     color: #18FFFF;
 }
 
-.corps .container {
-    position: absolute;
-    top: 30px;
-    bottom: 0px;
-    width: 90%;
-    padding: 5%;
-    padding-top: 2%;
-    overflow: auto;
-}
-
 table {
-    border-collapse :collapse;
-    width: 97%;
     background-color: #404040;
-    border: 1px solid grey;
-    margin-bottom: 30px;
-}
-
-td, th {
-    padding: 10px;
     border: 1px solid grey;
 }
 
 caption {
+    background-color: #272727;
+}
+
+footer {
+    background-color: #212121;
+    border-top: 1px solid #18FFFF;
+}
+
+.tableaux {
+    width: 100%;
+    border: 1px solid aqua;
+}
+
+.ec {
+    width: 46%;
+    margin: 2%;
+    float: left;
+}
+
+table {
+    max-width: 600px;
+    min-width: 300px;
+    margin: 3%;
+}
+
+.tbt {
+    text-align: center;
+    background-color: #333333;
+}
+
+td a:hover {
+    color: #FFFF00;
+    text-decoration: underline;
+}
+
+.niveau {
+    clear: both;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: yellow;
+    background-color: #404040;
+    border-radius: 5px;
+    text-align: center;
+    border-bottom: 1px solid #18FFFF;
+}
+
+.parcours {
+    clear: both;
+    width: 30%;
     padding: 10px;
     background-color: #272727;
     border-radius: 5px;
 }
 
-footer {
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
-    height: 16px;
-    font-size: 0.8em;
-    text-align: center;
-    padding: 7px;
-    background-color: #212121;
-    border-top: 1px solid #18FFFF;
-}
 
-footer p {
-    padding: 0px;
+
+.t1 {
+    background-color : #212121;
+    text-align: center;
+}
+  
+.t2 {
+    background-color : #272727;
+    text-align: center;
+}
+  
+.t3 {
+    background-color : #333333;
+    text-align: center;
+}
+  
+.t4 {
+    background-color : #404040;
+    text-align: center;
 }
