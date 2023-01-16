@@ -1,9 +1,10 @@
 body {
-    color: #CCCCCC;
+    color: #cccccc;
     background-color: black;
 }
 
 textarea {
+    width: 96%;
     padding: 20px;
     background-color: black;
     color: aqua;
@@ -18,13 +19,13 @@ a {
 }
 
 .titre {
-    color: #00E676;
+    color: #00e676;
     font-size: 1.7em;
 }
 
 .pre_select {
     background-color: black;
-    color: #18FFFF !important;
+    color: #18ffff !important;
     border-radius: 5px;
 }
 
@@ -33,7 +34,7 @@ header {
 }
 
 nav a:hover {
-    color: #18FFFF;
+    color: #18ffff;
     background-color: black;
     border-radius: 5px;
 }
@@ -43,7 +44,7 @@ nav a:hover {
 }
 
 .domaine {
-    border-bottom: 1px solid #18FFFF;
+    border-bottom: 1px solid #18ffff;
 }
 
 .mention > a {
@@ -54,7 +55,7 @@ nav a:hover {
 .mention > a:hover {
     border-radius: 5px;
     background-color: black;
-    color: #18FFFF;
+    color: #18ffff;
 }
 
 .corps {
@@ -72,7 +73,7 @@ nav a:hover {
 .menuc > a:hover {
     background-color: black;
     border-radius: 5px;
-    color: #18FFFF;
+    color: #18ffff;
 }
 
 table {
@@ -86,7 +87,7 @@ caption {
 
 footer {
     background-color: #212121;
-    border-top: 1px solid #18FFFF;
+    border-top: 1px solid #18ffff;
 }
 
 .tableaux {
@@ -106,7 +107,7 @@ footer {
 }
 
 td a:hover {
-    color: #FFFF00;
+    color: #ffff00;
     text-decoration: underline;
 }
 
@@ -118,7 +119,7 @@ td a:hover {
     background-color: #404040;
     border-radius: 5px;
     text-align: center;
-    border-bottom: 1px solid #18FFFF;
+    border-bottom: 1px solid #18ffff;
 }
 
 .parcours {
@@ -129,24 +130,22 @@ td a:hover {
     border-radius: 5px;
 }
 
-
-
 .t1 {
-    background-color : #212121;
+    background-color: #212121;
     text-align: center;
 }
-  
+
 .t2 {
-    background-color : #272727;
+    background-color: #272727;
     text-align: center;
 }
-  
+
 .t3 {
-    background-color : #333333;
+    background-color: #333333;
     text-align: center;
 }
-  
+
 .t4 {
-    background-color : #404040;
+    background-color: #404040;
     text-align: center;
 }

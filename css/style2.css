@@ -17,13 +17,13 @@ a {
 }
 
 .titre {
-    color: #00A234;
+    color: #00a234;
     font-size: 1.7em;
 }
 
 .pre_select {
     border-radius: 5px;
-    background-color : #EEEEEE;
+    background-color: #eeeeee;
     color: #098888 !important;
 }
 
@@ -38,16 +38,16 @@ nav a {
 
 nav a:hover {
     color: #098888;
-    background-color: #EEEEEE;
+    background-color: #eeeeee;
     border-radius: 5px;
 }
 
 .menu {
-    background-color: #BBBBBB;
+    background-color: #bbbbbb;
 }
 
 .domaine {
-    background-color: #EEEEEE;
+    background-color: #eeeeee;
     border-radius: 5px;
     border-bottom: 1px solid #098888;
 }
@@ -59,16 +59,16 @@ nav a:hover {
 
 .mention > a:hover {
     border-radius: 5px;
-    background-color: #EEEEEE;
+    background-color: #eeeeee;
     color: #098888;
 }
 
 .corps {
-    background-color: #EEEEEE;
+    background-color: #eeeeee;
 }
 
 .menuc {
-    background-color: #DDDDDD;
+    background-color: #dddddd;
 }
 
 .menuc > a {
@@ -77,17 +77,17 @@ nav a:hover {
 }
 
 .menuc > a:hover {
-    background-color: #EEEEEE;
+    background-color: #eeeeee;
     color: #098888;
 }
 
 table {
-    background-color: #DFDFDF;
+    background-color: #dfdfdf;
     border: 1px solid grey;
 }
 
 caption {
-    background-color: #BBBBBB;
+    background-color: #bbbbbb;
 }
 
 footer {
@@ -112,11 +112,11 @@ footer p {
 
 .tbt {
     text-align: center;
-    background-color: #DDDDDD;
+    background-color: #dddddd;
 }
 
 td a:hover {
-    color: #BB0000;
+    color: #bb0000;
     text-decoration: underline;
 }
 
@@ -124,7 +124,7 @@ td a:hover {
     clear: both;
     padding: 10px;
     margin-bottom: 10px;
-    color: #BB0000;
+    color: #bb0000;
     background-color: #cccccc;
     border-radius: 5px;
     text-align: center;
@@ -135,36 +135,34 @@ td a:hover {
     clear: both;
     width: 30%;
     padding: 10px;
-    background-color: #E9E9E9;
+    background-color: #e9e9e9;
     border-radius: 5px;
 }
 
-
-
 .t1 {
-    background-color : #EFEFEF;
+    background-color: #efefef;
     text-align: center;
 }
-  
+
 .t2 {
-    background-color : #E9E9E9;
+    background-color: #e9e9e9;
     text-align: center;
 }
-  
+
 .t3 {
-    background-color : #DDDDDD;
+    background-color: #dddddd;
     text-align: center;
 }
-  
+
 .t4 {
-    background-color : #C0C0C0;
+    background-color: #c0c0c0;
     text-align: center;
 }
 
 caption {
-    background-color: #BBBBBB;
+    background-color: #bbbbbb;
 }
 
 td {
-    background-color: #EEEEEE;
+    background-color: #eeeeee;
 }

@@ -1,5 +1,5 @@
 body {
-    color: #CCCCCC;
+    color: #cccccc;
     background-color: black;
 }
 
@@ -22,13 +22,13 @@ a {
 }
 
 .titre {
-    color: #00E676;
+    color: #00e676;
     font-size: 1.7em;
 }
 
 .pre_select {
-    background: -moz-radial-gradient(top left, #455A64, black);
-    color: #18FFFF !important;
+    background: -moz-radial-gradient(top left, #455a64, black);
+    color: #18ffff !important;
     border-radius: 2px;
     box-shadow: 1px 1px 1px 2px black;
 }
@@ -38,23 +38,24 @@ header {
 }
 
 nav a:hover {
-    color: #18FFFF;
-    background: -moz-radial-gradient(top left, #455A64, black);
+    color: #18ffff;
+    background: -moz-radial-gradient(top left, #455a64, black);
     border-radius: 2px;
     box-shadow: 1px 1px 1px 2px black;
 }
 
 .menu {
-    background: -moz-linear-gradient(#263238, #37474F);
+    background: -moz-linear-gradient(#263238, #37474f);
 }
 
 .domaine {
     /* 
     background: -moz-radial-gradient(top left, #455A64, #37474F); */
-    background-color: black;/* 
+    background-color: black;
+    /* 
     color: #18FFFF !important; */
     border-radius: 2px;
-    border-bottom: 1px solid #18FFFF;
+    border-bottom: 1px solid #18ffff;
 }
 
 .mention > a {
@@ -64,8 +65,8 @@ nav a:hover {
 
 .mention > a:hover {
     border-radius: 2px;
-    background: -moz-radial-gradient(top left, #455A64, black);
-    color: #18FFFF;
+    background: -moz-radial-gradient(top left, #455a64, black);
+    color: #18ffff;
     box-shadow: 1px 1px 1px 2px black;
 }
 
@@ -74,7 +75,7 @@ nav a:hover {
 }
 
 .menuc {
-    background-color: #37474F;
+    background-color: #37474f;
 }
 
 .menuc > a {
@@ -82,10 +83,10 @@ nav a:hover {
 }
 
 .menuc > a:hover {
-    background: -moz-radial-gradient(top left, #455A64, black);
+    background: -moz-radial-gradient(top left, #455a64, black);
     border-radius: 2px;
     box-shadow: 1px 1px 1px 2px black;
-    color: #18FFFF;
+    color: #18ffff;
 }
 
 .corps .container {
@@ -105,7 +106,7 @@ caption {
 
 footer {
     background-color: #263238;
-    border-top: 1px solid #18FFFF;
+    border-top: 1px solid #18ffff;
 }
 
 .tableaux {
@@ -125,7 +126,7 @@ footer {
 }
 
 td a:hover {
-    color: #FFFF00;
+    color: #ffff00;
     text-decoration: underline;
 }
 
@@ -137,7 +138,7 @@ td a:hover {
     background: -moz-radial-gradient(top left, #462c2c, black);
     border-radius: 5px 5px 0px 0px;
     text-align: center;
-    border-bottom: 1px solid #18FFFF;
+    border-bottom: 1px solid #18ffff;
 }
 
 .parcours {
@@ -148,24 +149,22 @@ td a:hover {
     border-radius: 5px 5px 0px 0px;
 }
 
-
-
 .t1 {
-    background-color : #0d0d1d3f;
+    background-color: #0d0d1d3f;
     text-align: center;
 }
-  
+
 .t2 {
-    background-color : #1f1d3b3a;
+    background-color: #1f1d3b3a;
     text-align: center;
 }
-  
+
 .t3 {
-    background-color : #403d5c31;
+    background-color: #403d5c31;
     text-align: center;
 }
-  
+
 .t4 {
-    background-color : #6f6c8634;
+    background-color: #6f6c8634;
     text-align: center;
 }

@@ -15,7 +15,7 @@ hr {
 }
 
 samp {
-    font-size : 1.4em;
+    font-size: 1.4em;
 }
 
 .titre_livre {
@@ -39,7 +39,7 @@ samp {
     background-color: #444444;
     padding: 10px;
     border-left: 3px solid yellow;
-    margin: 0px 0px 20px 0px;
+    margin: 20px 0px;
 }
 
 .cadre {
@@ -47,11 +47,17 @@ samp {
     border-radius: 5px;
 }
 
+.image {
+    text-align: center;
+    overflow: auto;
+}
+
 @keyframes changement {
-    from{
+    from {
         background-color: black;
     }
-    to{
+
+    to {
         background-color: #444444;
     }
 }
@@ -69,5 +75,11 @@ samp {
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
+    animation-timing-function: ease-out;
 }
 
+#pe:hover {
+    animation-name: none;
+    background-color: black;
+    box-shadow: 1px 1px 5px;
+}

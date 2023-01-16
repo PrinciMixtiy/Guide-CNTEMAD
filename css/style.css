@@ -10,11 +10,20 @@ body {
     font-size: 0.8em;
 }
 
-p, h1, h2, h3, h4, h5, h6, li, cite {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+cite {
     padding: 1.2em;
 }
 
-ul, ol {
+ul,
+ol {
     padding-left: 3em;
 }
 
@@ -38,15 +47,15 @@ header p {
     font-size: 0.8em;
 }
 
-nav  {
+nav {
     position: fixed;
     top: 0px;
-    left :0px;
+    left: 0px;
     z-index: 2;
     font-size: 0.7em;
     width: 100%;
     height: 30px;
-    border-bottom: 1px solid #18FFFF;
+    border-bottom: 1px solid #18ffff;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
 }
@@ -60,7 +69,7 @@ nav a {
 
 .menu {
     position: fixed;
-    top : 31px;
+    top: 31px;
     bottom: 31px;
     left: 0px;
     width: 20%;
@@ -82,7 +91,7 @@ nav a {
 
 .corps {
     position: fixed;
-    top : 31px;
+    top: 31px;
     bottom: 31px;
     right: 0px;
     padding: 0px;
@@ -93,7 +102,7 @@ nav a {
 .menuc {
     position: absolute;
     top: 0px;
-    left :0px;
+    left: 0px;
     z-index: 2;
     width: 100%;
     height: 30px;
@@ -122,12 +131,13 @@ nav a {
 }
 
 table {
-    border-collapse :collapse;
+    border-collapse: collapse;
     width: 97%;
     margin: 30px auto;
 }
 
-td, th {
+td,
+th {
     padding: 10px;
     border: 1px solid grey;
 }
@@ -158,9 +168,10 @@ footer p {
         color: black;
         font-size: 0em;
     }
+
     to {
         width: 91%;
         color: aqua;
-        font-size: 2em ;
+        font-size: 2em;
     }
 }
