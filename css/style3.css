@@ -49,10 +49,10 @@ nav a:hover {
 }
 
 .domaine {
-    /* 
+    /*
     background: -moz-radial-gradient(top left, #455A64, #37474F); */
     background-color: black;
-    /* 
+    /*
     color: #18FFFF !important; */
     border-radius: 2px;
     border-bottom: 1px solid #18ffff;
