@@ -1,6 +1,6 @@
 body{
-    background-color: white;
-    color: black;
+    background-color: rgb(65, 65, 65);
+    color: white;
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
@@ -13,6 +13,10 @@ header{
     text-align: center;
     background-color: rgb(16, 16, 26);
     color: rgb(230, 230, 230);
+}
+
+a{
+    color: rgb(255, 232, 104);
 }
 
 header nav{
@@ -93,6 +97,7 @@ caption{
 }
 
 .atomes_nav a{
+    color: white;
     display: inline-block;
     padding: 10px;
 }
@@ -120,7 +125,9 @@ caption{
     flex: 1;
     padding: 10px;
     margin: 5px;
+    border-radius: 5px;
     background-color: rgb(255, 255, 151);
+    color: black;
 }
 
 #presentation, #organisation{
@@ -132,12 +139,14 @@ caption{
     flex: 1;
     padding: 10px;
     margin: 5px;
+    border-radius: 5px;
     background-color: rgb(151, 179, 255);
+    color: black;
 }
 
 .titre{
     font-family: cursive;
-    color: green;
+    color: rgb(0, 221, 0);
 }
 
 .domaine{
@@ -158,6 +167,8 @@ caption{
 .domaine div{
     box-shadow: 0 18px 36px rgba(0,0,0,0.30), 0 14px 11px rgba(0,0,0,0.22);
     height: 170px;
+    background-color: white;
+    color: black;
 }
 
 .domaine div a{
@@ -228,6 +239,8 @@ caption{
     margin: 5px;
     padding: 5px;
     background-color: rgb(255, 255, 151);
+    color: black;
+    border-radius: 5px;
 }
 
 #mot_prof{
@@ -235,6 +248,8 @@ caption{
     margin: 5px;
     padding: 5px;
     background-color: rgb(151, 179, 255);
+    color: black;
+    border-radius: 5px;
 }
 
 #debouches{
